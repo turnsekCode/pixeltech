@@ -4,7 +4,7 @@ export default function FeaturesBlocksContacto() {
   return (
     <section className="relative">
       {/* Section background (needs .relative class on parent and next sibling elements) */}
-      <div style={{ backgroundImage: `url("../images/imagen_contacto.jpg")`, backgroundAttachment: "scroll", backgroundPosition: "center", backgroundSize: "cover" }} className="absolute inset-0 top-1/2 md:mt-24 lg:mt-0 lg:bg-gray-900 bg pointer-events-none hidden md:block" aria-hidden="true"></div>
+      <div style={{ backgroundImage: `url("../imagen_contacto.jpg")`, backgroundAttachment: "scroll", backgroundPosition: "center", backgroundSize: "cover" }} className="absolute inset-0 top-1/2 md:mt-24 lg:mt-0 lg:bg-gray-900 bg pointer-events-none hidden md:block" aria-hidden="true"></div>
       <div className="absolute left-0 right-0 bottom-0 m-auto w-px p-px h-20 bg-gray-200 transform translate-y-1/2"></div>
 
       <div className="relative max-w-6xl mx-auto px-4 sm:px-6">

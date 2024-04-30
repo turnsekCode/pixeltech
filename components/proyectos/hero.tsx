@@ -1,7 +1,7 @@
 export default function Hero() {
   return (
     <section style={{backgroundColor: "#FAFBFC"}} className="relative ">
-      <img className="absolute lg:top-40 top-[450px]" src="../images/line-4.png" />
+      <img className="absolute lg:top-40 top-[450px]" src="../line-4.png" />
       {/* Illustration behind hero content */}
       <div  className="absolute left-1/2 transform -translate-x-1/2 bottom-0 pointer-events-none z-1" aria-hidden="true">
         <svg width="1360" height="578" viewBox="0 0 1360 578" xmlns="http://www.w3.org/2000/svg">

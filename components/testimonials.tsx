@@ -1,5 +1,5 @@
 import Image from 'next/image'
-import TestimonialImage from '@/public/images/user-1-118x118 copia.jpeg'
+import TestimonialImage from '@/public/user-1-118x118 copia.jpeg'
 
 export default function Testimonials() {
   return (

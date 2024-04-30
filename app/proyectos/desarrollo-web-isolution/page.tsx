@@ -23,10 +23,10 @@ export default async function Proyect({ params }: { params: { slug: string } }) 
 
             <div className="absolute left-0 right-0 bottom-0 m-auto w-px p-px h-20 transform translate-y-1/2">
             </div>
-            <Image width={145} height={100} alt="desarrollo web" className="h-auto absolute top-32 left-[500px]" src="/../images/bubble-amarillo.png" />
-            <Image width={70} height={100} alt="desarrollo web" className="h-auto absolute top-44 lg:top-72 lg:left-40" src="/../images/bubble-rosado.png" />
-            <Image width={100} height={100} alt="desarrollo web" className="absolute top-[275px] left-[550px] w-11 h-11" src="/../images/bubble-azul.png" />
-            <Image width={600} height={70} alt="desarrollo web" className="h-auto absolute top-20 left-50 lg:left-72 opacity-20" src="/../images/circle-home.png" />
+            <Image width={145} height={100} alt="desarrollo web" className="h-auto absolute top-32 left-[500px]" src="/../bubble-amarillo.png" />
+            <Image width={70} height={100} alt="desarrollo web" className="h-auto absolute top-44 lg:top-72 lg:left-40" src="/../bubble-rosado.png" />
+            <Image width={100} height={100} alt="desarrollo web" className="absolute top-[275px] left-[550px] w-11 h-11" src="/../bubble-azul.png" />
+            <Image width={600} height={70} alt="desarrollo web" className="h-auto absolute top-20 left-50 lg:left-72 opacity-20" src="/../circle-home.png" />
 
             <div className="relative max-w-6xl mx-auto px-4 sm:px-6 ">
                 <div className="py-12 md:py-20">
@@ -52,17 +52,17 @@ export default async function Proyect({ params }: { params: { slug: string } }) 
 
                                 {/* Item 2*/}
                                 <div style={{ background: "linear-gradient(180deg,#f8f8f8,hsla(0,0%,100%,0)" }} className="mt-4 max-w-xl md:max-w-none md:w-full mx-auto md:col-span-6 lg:col-span-5 md:mt-6 bg-white rounded-2xl shadow-xl overflow-hidden" data-aos="fade-left">
-                                    <div style={{ backgroundImage: "url('/images/isolution1.png')", backgroundPosition: "center", backgroundSize: "cover" }} className="h-60 rounded-t-2xl transition-transform duration-700 hover:scale-110"></div>
+                                    <div style={{ backgroundImage: "url('/isolution1.png')", backgroundPosition: "center", backgroundSize: "cover" }} className="h-60 rounded-t-2xl transition-transform duration-700 hover:scale-110"></div>
                                     <div className="h-30 p-6 bg-white"><p className="text-gray-600 mb-2">Página web creada con wordpress</p><Link className="btn text-white bg-blue-600 hover:bg-blue-700 w-full mb-4 sm:w-auto sm:mb-0" href='https://isolution.site/' target="_blank">Ir a la web</Link></div>
                                 </div>
 
                                 {/* Item 3*/}
-                                <div style={{ backgroundImage: "url('/images/isolution2.png')", backgroundPosition: "center", backgroundSize: "cover" }}  className="h-60 mt-4 max-w-xl md:max-w-none md:w-full mx-auto md:col-span-6 lg:col-span-6 md:mt-6 bg-white rounded-2xl shadow-xl" data-aos="fade-left">
+                                <div style={{ backgroundImage: "url('/isolution2.png')", backgroundPosition: "center", backgroundSize: "cover" }}  className="h-60 mt-4 max-w-xl md:max-w-none md:w-full mx-auto md:col-span-6 lg:col-span-6 md:mt-6 bg-white rounded-2xl shadow-xl" data-aos="fade-left">
                                 </div>
 
 
                                 {/* Item 4*/}
-                                <div style={{ backgroundImage: "url('/images/isolution3.png')", backgroundPosition: "center", backgroundSize: "cover" }}  className="h-60 mt-4 max-w-xl md:max-w-none md:w-full mx-auto md:col-span-6 lg:col-span-6 md:mt-6 bg-white rounded-2xl shadow-xl" data-aos="fade-left">
+                                <div style={{ backgroundImage: "url('/isolution3.png')", backgroundPosition: "center", backgroundSize: "cover" }}  className="h-60 mt-4 max-w-xl md:max-w-none md:w-full mx-auto md:col-span-6 lg:col-span-6 md:mt-6 bg-white rounded-2xl shadow-xl" data-aos="fade-left">
                     
                                 </div>
 

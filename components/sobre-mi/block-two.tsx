@@ -37,7 +37,7 @@ export default async function BlockTow() {
         {/* foto */}
         <div className="relative max-w-6xl mx-auto sm:px-6">
 
-          <Image className="w-auto h-auto" width={600} height={300} alt="Abraham Turnsek" src="/../../images/perfil.png" />
+          <Image className="w-auto h-auto" width={600} height={300} alt="Abraham Turnsek" src="/../../perfil.png" />
 
         </div>
 
