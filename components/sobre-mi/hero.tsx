@@ -1,6 +1,3 @@
-import VideoThumb from '@/public/images/hero-image.png'
-import ModalVideo from '@/components/modal-video'
-
 export default function HeroSobreMi() {
   return (
     <section style={{backgroundColor: "#F6F9FA"}} className="relative ">

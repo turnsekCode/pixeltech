@@ -1,6 +1,4 @@
 "use client"
-import VideoThumb from '@/public/images/hero-image.png'
-import ModalVideo from '@/components/modal-video'
 
 import { Link as Link2 } from "react-scroll";
 

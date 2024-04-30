@@ -14,7 +14,7 @@ export async function generateStaticParams() {
 export default async function Proyect({ params }: { params: { slug: string } }) {
     const { slug } = params
     const posts = await fetch(`https://662fa5b243b6a7dce3104868.mockapi.io/api/proyects/proyects/${slug}`, { next: { revalidate: 1 } }).then((res) => res.json())
-    console.log("apiresult", posts)
+    //console.log("apiresult", posts)
     return (
         <section className="relative pt-12">
 
