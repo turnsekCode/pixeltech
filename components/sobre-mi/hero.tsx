@@ -1,7 +1,7 @@
 export default function HeroSobreMi() {
   return (
     <section style={{backgroundColor: "#F6F9FA"}} className="relative ">
-      <img className="absolute lg:top-32 top-[350px]" src="../line-4.png" />
+      <img className="absolute lg:top-32 top-[350px]" src="/line-4.png" />
       {/* Illustration behind hero content */}
       <div  className="absolute left-1/2 transform -translate-x-1/2 bottom-0 pointer-events-none z-1" aria-hidden="true">
         <svg width="1360" height="578" viewBox="0 0 1360 578" xmlns="http://www.w3.org/2000/svg">
@@ -31,16 +31,6 @@ export default function HeroSobreMi() {
               <p className="text-xl text-gray-600 mb-8" data-aos="zoom-y-out" data-aos-delay="150">Desarrollador web y móvil con 3 años de experiencia</p>
             </div>
           </div>
-
-          {/* Hero image */}
-          {/*<ModalVideo
-            thumb={VideoThumb}
-            thumbWidth={768}
-            thumbHeight={432}
-            thumbAlt="Modal video thumbnail"
-            video="/videos/video.mp4"
-            videoWidth={1920}
-  videoHeight={1080} />*/}
 
         </div>
 

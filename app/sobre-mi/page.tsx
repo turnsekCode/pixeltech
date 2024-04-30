@@ -8,7 +8,7 @@ import HeroSobreMi from '@/components/sobre-mi/hero'
 import TestimonialsSobreMi from '@/components/sobre-mi/testimonials'
 import BlockTow from '@/components/sobre-mi/block-two'
 
-export default function Contacto() {
+export default function SobreMi() {
   return (
     <>
       <HeroSobreMi />

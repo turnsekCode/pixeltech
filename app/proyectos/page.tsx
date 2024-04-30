@@ -7,7 +7,7 @@ import Newsletter from '@/components/newsletter'
 import HeroProyectos from '@/components/proyectos/hero'
 import BlockTow from '@/components/proyectos/block-two'
 
-export default function Contacto() {
+export default function Proyectos() {
   return (
     <>
       <HeroProyectos />

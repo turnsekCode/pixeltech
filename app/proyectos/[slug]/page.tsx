@@ -21,10 +21,10 @@ export default async function Proyect({ params }: { params: { slug: string } }) 
 
       <div className="absolute left-0 right-0 bottom-0 m-auto w-px p-px h-20 transform translate-y-1/2">
       </div>
-      <img className="absolute top-32 left-[500px]" src="../bubble-amarillo.png" />
-      <img className="absolute top-44 lg:top-72 lg:left-40" src="../bubble-rosado.png" />
-      <img className="absolute top-[275px] left-[550px] w-11 h-11" src="../bubble-azul.png" />
-      <img className="absolute top-20 left-50 lg:left-72 opacity-20" src="../circle-home.png" />
+      <img className="absolute top-32 left-[500px]" src="/bubble-amarillo.png" />
+      <img className="absolute top-44 lg:top-72 lg:left-40" src="/bubble-rosado.png" />
+      <img className="absolute top-[275px] left-[550px] w-11 h-11" src="/bubble-azul.png" />
+      <img className="absolute top-20 left-50 lg:left-72 opacity-20" src="/circle-home.png" />
 
       <div className="relative max-w-6xl mx-auto px-4 sm:px-6 ">
         <div className="py-12 md:py-20">

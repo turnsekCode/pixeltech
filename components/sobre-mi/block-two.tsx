@@ -1,21 +1,6 @@
 import Image from "next/image";
-import Link from 'next/link'
-
-async function getData() {
-  const res = await fetch('https://662fa5b243b6a7dce3104868.mockapi.io/api/proyects/proyects', { next: { revalidate: 1 } })
-  // The return value is *not* serialized
-  // You can return Date, Map, Set, etc.
-
-  if (!res.ok) {
-    // This will activate the closest `error.js` Error Boundary
-    throw new Error('Failed to fetch data')
-  }
-
-  return res.json()
-}
 
 export default async function BlockTow() {
-  const data = await getData()
   return (
     <section className="relative">
 
@@ -37,7 +22,7 @@ export default async function BlockTow() {
         {/* foto */}
         <div className="relative max-w-6xl mx-auto sm:px-6">
 
-          <Image className="w-auto h-auto" width={600} height={300} alt="Abraham Turnsek" src="/../../perfil.png" />
+          <Image className="w-auto h-auto" width={600} height={300} alt="Abraham Turnsek" src="/perfil.png" />
 
         </div>
 

@@ -1,6 +1,3 @@
-import Image from 'next/image'
-import TestimonialImage from '@/public/user-1-118x118 copia.jpeg'
-
 export default function TestimonialsSobreMi() {
   return (
     <section style={{backgroundColor: "#F6F9FA"}} className="relative my-10">

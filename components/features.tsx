@@ -1,23 +1,8 @@
 'use client'
 
-import { useState, useRef, useEffect } from 'react'
 import Link from 'next/link'
 
 export default function Features() {
-
-  const [tab, setTab] = useState<number>(1)
-
-  const tabs = useRef<HTMLDivElement>(null)
-
-  const heightFix = () => {
-    if (tabs.current && tabs.current.parentElement) tabs.current.parentElement.style.height = `${tabs.current.clientHeight}px`
-  }
-
-  useEffect(() => {
-    heightFix()
-  }, [])
-
-
 
   return (
     <section className="relative pb-28">
