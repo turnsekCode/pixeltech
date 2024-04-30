@@ -1,24 +1,3 @@
-import { type NextRequest, NextResponse} from 'next/server'
-import nodemailer from 'nodemailer';
-
-export async function POST(req: NextRequest, res: NextResponse) {
-  
-  let passValue = await new Response(req.body).text();
-  let bodyreq = JSON.parse(passValue);
-  const { name, email, subject, message } = bodyreq;
-
-  // Configura el transporte de correo electrónico
-  const transporter = nodemailer.createTransport({
-    // Configura tu proveedor de correo electrónico aquí
-    // Por ejemplo, puedes usar Gmail, Outlook, etc.
-    service: 'Gmail',
-    auth: {
-      user: process.env.MAIL_USER,
-      pass: process.env.MAIL_PASS
-    }
-  });
-  // Plantilla HTML para el correo electrónico
-const emailHTML = `
 <!DOCTYPE html>
 <html lang="es">
 <head>
@@ -51,7 +30,7 @@ const emailHTML = `
         
         /* Estilos para el logo */
         .logo {
-            width: 200px;
+            width: 100px;
             height: auto;
         }
         
@@ -85,24 +64,8 @@ const emailHTML = `
             <p><strong>Mensaje:</strong> ${message}</p>
         </div>
         <div class="footer">
-            Correo enviado desde pixeltech
+            ¡Gracias por contactarnos!
         </div>
     </div>
 </body>
 </html>
-`;
-
-  try {
-    // Envía el correo electrónico
-    await transporter.sendMail({
-      from: process.env.MAIL_USER,
-      to: process.env.MAIL_USER,
-      subject: subject,
-      html: emailHTML
-    });
-
-    return new Response('Correo enviado exitosamente', { status: 200 });
-  } catch (error) {
-    return new Response('Error al enviar el correo electrónico', { status: 500 });
-  }
-}
