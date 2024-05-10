@@ -69,7 +69,7 @@ export default function Newsletter() {
                 {/* CTA form */}
                 <div className="w-full lg:w-auto">
                   <div className="flex flex-col sm:flex-row justify-center lg:justify-start max-w-xs mx-auto sm:max-w-md lg:mx-0">
-                    <a className="btn text-white bg-blue-600 hover:bg-blue-700 shadow" href="contacto#formulario">Contáctame</a>
+                    <a className="btn text-white bg-blue-600 hover:bg-blue-700 shadow" href="/contacto#formulario">Contáctame</a>
                   </div>
                   {/* Success message */}
                   {/* <p className="text-sm text-gray-400 mt-3">Thanks for subscribing!</p> */}

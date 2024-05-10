@@ -34,14 +34,14 @@ export default function Features() {
 
               {/* Item 3*/}
               <div style={{background: "linear-gradient(180deg,#f8f8f8,hsla(0,0%,100%,0)"}} className="mt-4 max-w-xl md:max-w-none md:w-full mx-auto md:col-span-6 lg:col-span-6 md:mt-6 bg-white rounded-2xl shadow-xl overflow-hidden" data-aos="fade-right">
-              <div style={{backgroundImage: "url('/apec2.png')", backgroundPosition: "center", backgroundSize: "cover"}} className="h-60 rounded-t-2xl transition-transform duration-700 hover:scale-110"></div>
-                <div className="h-30 p-6"><a href='https://apecconsultoriaglobal.com/' target='_blank' className="text-xl font-semibold leading-snug tracking-tight mb-1">apecconsultoriaglobal.com</a><p className="text-gray-600 mb-2">Página web creada con wordpress</p><Link className="btn text-white bg-blue-600 hover:bg-blue-700 w-full mb-4 sm:w-auto sm:mb-0" href='/proyectos/desarrollo-web-apec'>Ver detalles</Link></div>
+              <div style={{backgroundImage: "url('/sorteo.quickgol1.png')", backgroundPosition: "center", backgroundSize: "cover"}} className="h-60 rounded-t-2xl transition-transform duration-700 hover:scale-110"></div>
+                <div className="h-30 p-6"><a href='https://sorteo.pixeltech.es/' target='_blank' className="text-xl font-semibold leading-snug tracking-tight mb-1">sorteo.pixeltech.es</a><p className="text-gray-600 mb-2">Página web creada con Nextjs y nodejs</p><Link className="btn text-white bg-blue-600 hover:bg-blue-700 w-full mb-4 sm:w-auto sm:mb-0" href='/proyectos/desarrollo-web-sorteo-quickgold'>Ver detalles</Link></div>
               </div>
 
               {/* Item 4*/}
               <div style={{background: "linear-gradient(180deg,#f8f8f8,hsla(0,0%,100%,0)"}} className="mt-4 max-w-xl md:max-w-none md:w-full mx-auto md:col-span-6 lg:col-span-6 md:mt-6 bg-white rounded-2xl shadow-xl overflow-hidden" data-aos="fade-left">
-              <div style={{backgroundImage: "url('/isolution1.png')", backgroundPosition: "center", backgroundSize: "cover"}} className="h-60 rounded-t-2xl transition-transform duration-700 hover:scale-110"></div>
-                <div className="h-30 p-6"><a href='https://isolution.site/' target='_blank' className="text-xl font-semibold leading-snug tracking-tight mb-1">isolution.site</a><p className="text-gray-600 mb-2">Página web creada con wordpress</p><Link className="btn text-white bg-blue-600 hover:bg-blue-700 w-full mb-4 sm:w-auto sm:mb-0" href='/proyectos/desarrollo-web-isolution'>Ver detalles</Link></div>
+              <div style={{backgroundImage: "url('/currency1.png')", backgroundPosition: "center", backgroundSize: "cover"}} className="h-60 rounded-t-2xl transition-transform duration-700 hover:scale-110"></div>
+                <div className="h-30 p-6"><a href='https://currency.pixeltech.es' target='_blank' className="text-xl font-semibold leading-snug tracking-tight mb-1">currency.pixeltech.es</a><p className="text-gray-600 mb-2">Página web creada con nextjs</p><Link className="btn text-white bg-blue-600 hover:bg-blue-700 w-full mb-4 sm:w-auto sm:mb-0" href='/proyectos/desarrollo-web-currency'>Ver detalles</Link></div>
               </div>
             </div>
             <div className="lg:w-full flex justify-center items-center mt-16"><Link className="btn w-36 text-white bg-blue-600 hover:bg-blue-700 sm:w-auto sm:mb-0" href='/proyectos'>Ver todos</Link></div>
