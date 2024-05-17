@@ -47,22 +47,22 @@ export default async function Proyect({ params }: { params: { slug: string } }) 
 
                                 {/* Item 1 */}
                                 <div className="flex items-center justify-center max-w-xl md:max-w-none md:w-full mx-auto md:col-span-6 lg:col-span-7 md:mt-6 bg-white rounded-2xl shadow-xl p-5" data-aos="fade-right">
-                                    <p className="text-gray-600 mb-2">Desarrollo de la web utilizando tecnologías de vanguardia como Next.js y Node.js, optimizando su rendimiento y mejorando su posicionamiento SEO para alcanzar una mayor visibilidad en los motores de búsqueda. Implementé una estructura de servidor en Linux siguiendo principios DevOps para garantizar su estabilidad y escalabilidad.<br/><br/> Además, esta web se basó en un diseño en Figma, lo que permitió una integración fluida entre el diseño y el desarrollo. También migré con éxito la plataforma desde WordPress a la tecnología mencionada, lo que proporcionó una experiencia de usuario más rápida y moderna. <br/><br/> Se usa wordpress como headless y carga de datos con generación estática de archivos, de esa manera se usa wordpress como el gestor del contenido de la web.</p>
+                                    <p className="text-gray-600 mb-2">He desarrollado un panel administrativo utilizando ReactJS para el frontend y Node.js para el backend, diseñado para gestionar eficientemente los proyectos de una plataforma web. El panel cuenta con un sistema de inicio de sesión seguro, con roles de usuario que garantizan el acceso controlado y la protección de rutas según el nivel de autorización. <br/><br/> Los administradores pueden utilizar el panel para gestionar proyectos mediante un formulario intuitivo que permite ingresar toda la información necesaria para describir cada proyecto, como el nombre, la descripción y una ruta dinámica. Los datos se almacenan de manera segura en una base de datos MongoDB. <br/><br/>El panel administrativo está integrado con una web de portafolio construida con Next.js. Gracias al server-side rendering (SSR) de Next.js, cada vez que se crea o actualiza un proyecto en el panel administrativo, el portafolio se actualiza dinámicamente para reflejar estos cambios. Esto incluye la generación de una página específica para cada proyecto con una ruta dinámica, donde se presentan los detalles más específicos del proyecto.</p>
                                 </div>
 
                                 {/* Item 2*/}
                                 <div style={{ background: "linear-gradient(180deg,#f8f8f8,hsla(0,0%,100%,0)" }} className="mt-4 max-w-xl md:max-w-none md:w-full mx-auto md:col-span-6 lg:col-span-5 md:mt-6 bg-white rounded-2xl shadow-xl overflow-hidden h-fit" data-aos="fade-left">
-                                    <div style={{ backgroundImage: "url('/quickgold1.png')", backgroundPosition: "center", backgroundSize: "cover" }} className="h-60 rounded-t-2xl transition-transform duration-700 hover:scale-110"></div>
-                                    <div className="h-30 p-6 bg-white"><p className="text-gray-600 mb-2">Aplicación web creada con Nextjs y nodejs</p><Link className="btn text-white bg-blue-600 hover:bg-blue-700 w-full mb-4 sm:w-auto sm:mb-0" href='https://quickgold.es/' target="_blank">Ir a la web</Link></div>
+                                    <div style={{ backgroundImage: "url('/dashboard1.png')", backgroundPosition: "center", backgroundSize: "contain", backgroundRepeat: "no-repeat" }} className="h-60 rounded-t-2xl transition-transform duration-700 hover:scale-110"></div>
+                                    <div className="h-30 p-6 bg-white"><p className="text-gray-600 mb-2">Aplicación web creada con Reactjs y nodejs</p><Link className="btn text-white bg-blue-600 hover:bg-blue-700 w-full mb-4 sm:w-auto sm:mb-0" href='https://admin.isolution.site/login' target="_blank">Ir a la web</Link></div>
                                 </div>
 
                                 {/* Item 3*/}
-                                <div style={{ backgroundImage: "url('/quickgold2.png')", backgroundPosition: "center", backgroundSize: "cover" }}  className="h-60 mt-4 max-w-xl md:max-w-none md:w-full mx-auto md:col-span-6 lg:col-span-6 md:mt-6 bg-white rounded-2xl shadow-xl" data-aos="fade-left">
+                                <div style={{ backgroundImage: "url('/dashboard2.png')", backgroundPosition: "center", backgroundSize: "contain", backgroundRepeat: "no-repeat" }}  className="h-60 mt-4 max-w-xl md:max-w-none md:w-full mx-auto md:col-span-6 lg:col-span-6 md:mt-6 bg-white rounded-2xl shadow-xl" data-aos="fade-left">
                                 </div>
 
 
                                 {/* Item 4*/}
-                                <div style={{ backgroundImage: "url('/quickgold3.png')", backgroundPosition: "center", backgroundSize: "cover" }}  className="h-60 mt-4 max-w-xl md:max-w-none md:w-full mx-auto md:col-span-6 lg:col-span-6 md:mt-6 bg-white rounded-2xl shadow-xl" data-aos="fade-left">
+                                <div style={{ backgroundImage: "url('/dashboard3.png')", backgroundPosition: "center", backgroundSize: "contain", backgroundRepeat: "no-repeat" }}  className="h-60 mt-4 max-w-xl md:max-w-none md:w-full mx-auto md:col-span-6 lg:col-span-6 md:mt-6 bg-white rounded-2xl shadow-xl" data-aos="fade-left">
                     
                                 </div>
 

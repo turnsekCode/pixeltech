@@ -51,7 +51,7 @@ export default async function Proyect({ params }: { params: { slug: string } }) 
                                 </div>
 
                                 {/* Item 2*/}
-                                <div style={{ background: "linear-gradient(180deg,#f8f8f8,hsla(0,0%,100%,0)" }} className="mt-4 max-w-xl md:max-w-none md:w-full mx-auto md:col-span-6 lg:col-span-5 md:mt-6 bg-white rounded-2xl shadow-xl overflow-hidden" data-aos="fade-left">
+                                <div style={{ background: "linear-gradient(180deg,#f8f8f8,hsla(0,0%,100%,0)" }} className="mt-4 max-w-xl md:max-w-none md:w-full mx-auto md:col-span-6 lg:col-span-5 md:mt-6 bg-white rounded-2xl shadow-xl overflow-hidden h-fit" data-aos="fade-left">
                                     <div style={{ backgroundImage: "url('/apec1.png')", backgroundPosition: "center", backgroundSize: "cover" }} className="h-60 rounded-t-2xl transition-transform duration-700 hover:scale-110"></div>
                                     <div className="h-30 p-6 bg-white"><p className="text-gray-600 mb-2">Página web creada con wordpress</p><Link className="btn text-white bg-blue-600 hover:bg-blue-700 w-full mb-4 sm:w-auto sm:mb-0" href='https://apecconsultoriaglobal.com/' target="_blank">Ir a la web</Link></div>
                                 </div>
