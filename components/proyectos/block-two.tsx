@@ -31,10 +31,10 @@ export default async function BlockTow() {
               {/* Section content */}
               <div className="md:grid lg:grid-cols-12 md:grid-cols-12 md:gap-12">
 
-                {/* Item 1 */}
-                <div style={{ background: "linear-gradient(180deg,#f8f8f8,hsla(0,0%,100%,0)" }} className="mt-4 max-w-xl md:max-w-none md:w-full mx-auto md:col-span-6 lg:col-span-6 md:mt-6 bg-white rounded-2xl shadow-xl overflow-hidden" data-aos="fade-right">
-                  <div style={{ backgroundImage: "url('/dashboard1.png')", backgroundPosition: "center", backgroundSize: "cover" }} className="h-60 rounded-t-2xl transition-transform duration-700 hover:scale-110"></div>
-                  <div className="h-30 p-6 bg-white"><a href='https://admin.isolution.site/login' target='_blank' className="text-xl font-semibold leading-snug tracking-tight mb-1">Panel administrativo pixeltech</a><p className="text-gray-600 mb-2">Aplicación web creada con Reactjs y nodejs</p><Link className="btn text-white bg-blue-600 hover:bg-blue-700 w-full mb-4 sm:w-auto sm:mb-0" href='/proyectos/desarrollo-web-dashboard-pixeltech'>Ver detalles</Link></div>
+                  {/* Item 1 */}
+                  <div style={{ background: "linear-gradient(180deg,#f8f8f8,hsla(0,0%,100%,0)" }} className="mt-4 max-w-xl md:max-w-none md:w-full mx-auto md:col-span-6 lg:col-span-6 md:mt-6 bg-white rounded-2xl shadow-xl overflow-hidden" data-aos="fade-right">
+                  <div style={{ backgroundImage: "url('/jayil1.png')", backgroundPosition: "center", backgroundSize: "cover" }} className="h-60 rounded-t-2xl transition-transform duration-700 hover:scale-110"></div>
+                  <div className="h-30 p-6 bg-white"><a href='https://www.jayil.es/' target='_blank' className="text-xl font-semibold leading-snug tracking-tight mb-1">jayil.es</a><p className="text-gray-600 mb-2">Tienda online creada con Reactjs, nodejs y Mongodb</p><Link className="btn text-white bg-blue-600 hover:bg-blue-700 w-full mb-4 sm:w-auto sm:mb-0" href='/proyectos/desarrollo-web-tienda-online-jayil'>Ver detalles</Link></div>
                 </div>
 
                 {/* Item 2 */}
@@ -42,32 +42,39 @@ export default async function BlockTow() {
                   <div style={{ backgroundImage: "url('/quickgold1.png')", backgroundPosition: "center", backgroundSize: "cover" }} className="h-60 rounded-t-2xl transition-transform duration-700 hover:scale-110"></div>
                   <div className="h-30 p-6 bg-white"><a href='https://quickgold.es/' target='_blank' className="text-xl font-semibold leading-snug tracking-tight mb-1">quickgold.es</a><p className="text-gray-600 mb-2">Aplicación web creada con Nextjs y nodejs</p><Link className="btn text-white bg-blue-600 hover:bg-blue-700 w-full mb-4 sm:w-auto sm:mb-0" href='/proyectos/desarrollo-web-quickgold'>Ver detalles</Link></div>
                 </div>
+             
 
-                {/* Item 3*/}
+                {/* Item 3 */}
+                <div style={{ background: "linear-gradient(180deg,#f8f8f8,hsla(0,0%,100%,0)" }} className="mt-4 max-w-xl md:max-w-none md:w-full mx-auto md:col-span-6 lg:col-span-6 md:mt-6 bg-white rounded-2xl shadow-xl overflow-hidden" data-aos="fade-right">
+                  <div style={{ backgroundImage: "url('/dashboard1.png')", backgroundPosition: "center", backgroundSize: "cover" }} className="h-60 rounded-t-2xl transition-transform duration-700 hover:scale-110"></div>
+                  <div className="h-30 p-6 bg-white"><a href='https://admin.isolution.site/login' target='_blank' className="text-xl font-semibold leading-snug tracking-tight mb-1">Panel administrativo pixeltech</a><p className="text-gray-600 mb-2">Aplicación web creada con Reactjs y nodejs</p><Link className="btn text-white bg-blue-600 hover:bg-blue-700 w-full mb-4 sm:w-auto sm:mb-0" href='/proyectos/desarrollo-web-dashboard-pixeltech'>Ver detalles</Link></div>
+                </div>
+
+                {/* Item 4 */}
                 <div style={{ background: "linear-gradient(180deg,#f8f8f8,hsla(0,0%,100%,0)" }} className="mt-4 max-w-xl md:max-w-none md:w-full mx-auto md:col-span-6 lg:col-span-6 md:mt-6 bg-white rounded-2xl shadow-xl overflow-hidden" data-aos="fade-left">
                   <div style={{ backgroundImage: "url('/mockup_app.png')", backgroundPosition: "center", backgroundSize: "cover" }} className="h-60 rounded-t-2xl transition-transform duration-700 hover:scale-110"></div>
                   <div className="h-30 p-6 bg-white"><a href='https://quickgold.es/app' target='_blank' className="text-xl font-semibold leading-snug tracking-tight mb-1">App movil quickgold</a><p className="text-gray-600 mb-2">Aplicación móvil híbrida creada con React native y nodejs</p><Link className="btn text-white bg-blue-600 hover:bg-blue-700 w-full mb-4 sm:w-auto sm:mb-0" href='/proyectos/app-movil-quickgold'>Ver detalles</Link></div>
                 </div>
 
-                 {/* Item 4*/}
+                 {/* Item 5 */}
                  <div style={{ background: "linear-gradient(180deg,#f8f8f8,hsla(0,0%,100%,0)" }} className="mt-4 max-w-xl md:max-w-none md:w-full mx-auto md:col-span-6 lg:col-span-6 md:mt-6 bg-white rounded-2xl shadow-xl overflow-hidden" data-aos="fade-right">
                   <div style={{ backgroundImage: "url('/sorteo.quickgol1.png')", backgroundPosition: "center", backgroundSize: "cover" }} className="h-60 rounded-t-2xl transition-transform duration-700 hover:scale-110"></div>
                   <div className="h-30 p-6 bg-white"><a href='https://sorteo.pixeltech.es' target='_blank' className="text-xl font-semibold leading-snug tracking-tight mb-1">sorteo.pixeltech.es</a><p className="text-gray-600 mb-2">Página web creada con Nextjs y nodejs</p><Link className="btn text-white bg-blue-600 hover:bg-blue-700 w-full mb-4 sm:w-auto sm:mb-0" href='/proyectos/desarrollo-web-sorteo-quickgold'>Ver detalles</Link></div>
                 </div>
 
-                {/* Item 5*/}
+                {/* Item 6 */}
                 <div style={{ background: "linear-gradient(180deg,#f8f8f8,hsla(0,0%,100%,0)" }} className="mt-4 max-w-xl md:max-w-none md:w-full mx-auto md:col-span-6 lg:col-span-6 md:mt-6 bg-white rounded-2xl shadow-xl overflow-hidden" data-aos="fade-right">
                   <div style={{ backgroundImage: "url('/currency1.png')", backgroundPosition: "center", backgroundSize: "cover" }} className="h-60 rounded-t-2xl transition-transform duration-700 hover:scale-110"></div>
                   <div className="h-30 p-6 bg-white"><a href='https://currency.pixeltech.es' target='_blank' className="text-xl font-semibold leading-snug tracking-tight mb-1">currency.pixeltech.es</a><p className="text-gray-600 mb-2">Página web creada con Nextjs</p><Link className="btn text-white bg-blue-600 hover:bg-blue-700 w-full mb-4 sm:w-auto sm:mb-0" href='/proyectos/desarrollo-web-currency'>Ver detalles</Link></div>
                 </div>
 
-                 {/* Item 6*/}
+                 {/* Item 7 */}
                  <div style={{ background: "linear-gradient(180deg,#f8f8f8,hsla(0,0%,100%,0)" }} className="mt-4 max-w-xl md:max-w-none md:w-full mx-auto md:col-span-6 lg:col-span-6 md:mt-6 bg-white rounded-2xl shadow-xl overflow-hidden" data-aos="fade-left">
                   <div style={{ backgroundImage: "url('/isolution1.png')", backgroundPosition: "center", backgroundSize: "cover" }} className="h-60 rounded-t-2xl transition-transform duration-700 hover:scale-110"></div>
                   <div className="h-30 p-6 bg-white"><a href='https://isolution.site/' target='_blank' className="text-xl font-semibold leading-snug tracking-tight mb-1">isolution.site</a><p className="text-gray-600 mb-2">Página web creada con wordpress</p><Link className="btn text-white bg-blue-600 hover:bg-blue-700 w-full mb-4 sm:w-auto sm:mb-0" href='/proyectos/desarrollo-web-isolution'>Ver detalles</Link></div>
                 </div>
 
-                {/* Item 7*/}
+                {/* Item 8 */}
                 <div style={{ background: "linear-gradient(180deg,#f8f8f8,hsla(0,0%,100%,0)" }} className="mt-4 max-w-xl md:max-w-none md:w-full mx-auto md:col-span-6 lg:col-span-6 md:mt-6 bg-white rounded-2xl shadow-xl overflow-hidden" data-aos="fade-right">
                   <div style={{ backgroundImage: "url('/apec1.png')", backgroundPosition: "center", backgroundSize: "cover" }} className="h-60 rounded-t-2xl transition-transform duration-700 hover:scale-110"></div>
                   <div className="h-30 p-6 bg-white"><a href='https://apecconsultoriaglobal.com/' target='_blank' className="text-xl font-semibold leading-snug tracking-tight mb-1">apecconsultoriaglobal.com</a><p className="text-gray-600 mb-2">Página web creada con wordpress</p><Link className="btn text-white bg-blue-600 hover:bg-blue-700 w-full mb-4 sm:w-auto sm:mb-0" href='/proyectos/desarrollo-web-apec'>Ver detalles</Link></div>
