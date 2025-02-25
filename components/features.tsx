@@ -22,8 +22,8 @@ export default function Features() {
 
               {/* Item 1 */}
               <div style={{background: "linear-gradient(180deg,#f8f8f8,hsla(0,0%,100%,0)"}} className="mt-4 max-w-xl md:max-w-none md:w-full mx-auto md:col-span-6 lg:col-span-6 md:mt-6 bg-white rounded-2xl shadow-xl overflow-hidden" data-aos="fade-right">
-                <div style={{backgroundImage: "url('/dashboard1.png')", backgroundPosition: "center", backgroundSize: "cover"}} className="h-60 rounded-t-2xl transition-transform duration-700 hover:scale-110"></div>
-                <div className="h-30 p-6"><a href='https://admin.isolution.site/login' target='_blank' className="text-xl font-semibold leading-snug tracking-tight mb-1">Panel administrativo pixeltech</a><p className="text-gray-600 mb-2">Aplicación web creada con Reactjs y nodejs</p><Link className="btn text-white bg-blue-600 hover:bg-blue-700 w-full mb-4 sm:w-auto sm:mb-0" href='/proyectos/desarrollo-web-dashboard-pixeltech'>Ver detalles</Link></div>
+                <div style={{backgroundImage: "url('/jayil1.png')", backgroundPosition: "center", backgroundSize: "cover"}} className="h-60 rounded-t-2xl transition-transform duration-700 hover:scale-110"></div>
+                <div className="h-30 p-6"><a href='https://www.jayil.es/' target='_blank' className="text-xl font-semibold leading-snug tracking-tight mb-1">jayil.es</a><p className="text-gray-600 mb-2">Ecommerce creada con Reactjs, nodejs y Mongodb</p><Link className="btn text-white bg-blue-600 hover:bg-blue-700 w-full mb-4 sm:w-auto sm:mb-0" href='/proyectos/desarrollo-web-tienda-online-jayil'>Ver detalles</Link></div>
               </div>
 
                {/* Item 2 */}
@@ -40,8 +40,8 @@ export default function Features() {
 
               {/* Item 4*/}
               <div style={{background: "linear-gradient(180deg,#f8f8f8,hsla(0,0%,100%,0)"}} className="mt-4 max-w-xl md:max-w-none md:w-full mx-auto md:col-span-6 lg:col-span-6 md:mt-6 bg-white rounded-2xl shadow-xl overflow-hidden" data-aos="fade-right">
-              <div style={{backgroundImage: "url('/sorteo.quickgol1.png')", backgroundPosition: "center", backgroundSize: "cover"}} className="h-60 rounded-t-2xl transition-transform duration-700 hover:scale-110"></div>
-                <div className="h-30 p-6"><a href='https://sorteo.pixeltech.es/' target='_blank' className="text-xl font-semibold leading-snug tracking-tight mb-1">sorteo.pixeltech.es</a><p className="text-gray-600 mb-2">Página web creada con Nextjs y nodejs</p><Link className="btn text-white bg-blue-600 hover:bg-blue-700 w-full mb-4 sm:w-auto sm:mb-0" href='/proyectos/desarrollo-web-sorteo-quickgold'>Ver detalles</Link></div>
+                <div style={{backgroundImage: "url('/dashboard1.png')", backgroundPosition: "center", backgroundSize: "cover"}} className="h-60 rounded-t-2xl transition-transform duration-700 hover:scale-110"></div>
+                <div className="h-30 p-6"><a href='https://admin.isolution.site/login' target='_blank' className="text-xl font-semibold leading-snug tracking-tight mb-1">Panel administrativo pixeltech</a><p className="text-gray-600 mb-2">Aplicación web creada con Reactjs y nodejs</p><Link className="btn text-white bg-blue-600 hover:bg-blue-700 w-full mb-4 sm:w-auto sm:mb-0" href='/proyectos/desarrollo-web-dashboard-pixeltech'>Ver detalles</Link></div>
               </div>
 
             </div>
